@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            body {
+            background-color: black;
+            color: white;
+            }
+        </style>
+
+        <body>
+            <h2>
+                Formulario de contato
+            </h2>
+            <form action="obrigado.html" method="post">
+                <fieldset>
+                    <label>Digite seu nome</label>
+                    <input type="text" name="none" placeholder="Cleitoswaldo" required><br>
+                    <label>Seu telefone:</label>
+                    <input type="tel" name="telefone" placeholder="(00) 90000-0000" required><br>
+                    <label>Idade:</label>
+                    <input type="number" name="idade" placeholder="00" required><br>
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="seuemail@gmail.com" required><br>
+
+                    <label>Escolha o seu curso:</label>
+                    <input type="radio" name="curso" value="ADS" placeholder="" required>
+                    <label>ADS</label>
+                    <input type="radio" name="curso" value="Medicina" placeholder="" required>
+                    <label>Medicina</label>
+                    <input type="radio" name="curso" value="Computação" placeholder="" required>
+                    <label>Computação</label>
+                </fieldset>
+
+                <fieldset>
+                    <label>Avalie nosso site:</label><br>
+                    <input type="range" min="0" max="5" placeholder=""><br>
+                    <label>Deixe aqui seu feedback:</label><br>
+                    <textarea name="feedback" placeholder="Coloque seu feedback aqui" required></textarea>
+                </fieldset><p>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Limpar">
+                <button value="Enviar">Enviar</button><br>
+            </form>
+        </body>
+    </head>
+</html>
