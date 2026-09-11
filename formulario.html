@@ -1,84 +1,52 @@
 <html>
     <head>
         <title>Formulário de contato</title>
-        <style>
-            header{
-                background-color: wheat;
-                color: black;
-                font-family: Arial;
-            }
-            body {
-                margin: 50;
-                background-color: black;
-                color: white;
-                border: 0;
-            }
-            form fieldset input, textarea {
-                background-color: wheat;
-                color: black;
-                margin: 5px;
-                border: 0;
-            }
-            .img-logo {
-                width: 20%;
-                float: center;
-            }
-            .estilo-2 {
-                background-color: white;
-                color: black;
-            }
-            .botao-form{
-                margin: 10px;
-                font-size: large;
-            }
-            /* Comentário 1 - aqui é o CSS*/
-        </style>
-
-        
-        <body>
-            <div class = "cabeçalho">
-                <header>
-                    <center><img class="img-logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"></center>
-                    <h2><center>FORMULÁRIO DE CONTATO</center></h2>
-                </header>
-            </div>
-
-            <div class = "mensagem_inicial">
-                <h3>Preencha o formulário abaixo:</h3>
-            </div>
-
-            <div class = "form">
-                <form action="obrigado.html" method="post">
-                    <fieldset class="estilo-2">
-                        <label>Digite seu nome:</label>
-                        <input type="text" name="none" placeholder="Cleitoswaldo" required><br>
-                        <label>Seu telefone:</label>
-                        <input type="tel" name="telefone" placeholder="(00) 90000-0000" required><br>
-                        <label>Idade:</label>
-                        <input type="number" name="idade" placeholder="00" required><br>
-                        <label>E-mail:</label>
-                        <input type="email" name="email" placeholder="seuemail@gmail.com" required><br>
-
-                        <label>Escolha o seu curso:</label>
-                        <input type="radio" name="curso" value="ADS" placeholder="" required>
-                        <label>ADS</label>
-                        <input type="radio" name="curso" value="Medicina" placeholder="" required>
-                        <label>Medicina</label>
-                        <input type="radio" name="curso" value="Computação" placeholder="" required>
-                        <label>Computação</label>
-                    </fieldset>
-
-                    <fieldset class="estilo-2">
-                        <label>Avalie nosso site:</label><br>
-                        <input type="range" min="0" max="5" placeholder=""><br>
-                        <label>Deixe aqui seu feedback:</label><br>
-                        <textarea name="feedback" placeholder="Coloque seu feedback aqui" required></textarea>
-                    </fieldset><p>
-
-                    <input class="botao-form" type="submit" value="Cadastrar">
-                    <input class="botao-form" type="reset" value="Limpar"><br>
-                </form>
-            </div>
-        </body>
+        <link href="estilo.css" rel="stylesheet">
     </head>
+        
+    <body>
+        <div class = "cabeçalho">
+            <header>
+                <center><img class="img-logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"></center>
+                <h2><center>FORMULÁRIO DE CONTATO</center></h2>
+            </header>
+        </div>
+
+        <div class = "mensagem_inicial">
+            <h3>Preencha o formulário abaixo:</h3>
+        </div>
+
+        <div class = "form">
+            <form action="obrigado.html" method="post">
+                <fieldset class="estilo-2">
+                    <label>Digite seu nome:</label>
+                    <input type="text" name="none" placeholder="Cleitoswaldo" required><br>
+                    <label>Seu telefone:</label>
+                    <input type="tel" name="telefone" placeholder="(00) 90000-0000" required><br>
+                    <label>Idade:</label>
+                    <input type="number" name="idade" placeholder="00" required><br>
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="seuemail@gmail.com" required><br>
+
+                    <label>Escolha o seu curso:</label>
+                    <input type="radio" name="curso" value="ADS" placeholder="" required>
+                    <label>ADS</label>
+                    <input type="radio" name="curso" value="Medicina" placeholder="" required>
+                    <label>Medicina</label>
+                    <input type="radio" name="curso" value="Computação" placeholder="" required>
+                    <label>Computação</label>
+                </fieldset>
+
+                <fieldset class="estilo-2">
+                    <label>Avalie nosso site:</label><br>
+                    <input type="range" min="0" max="5" placeholder=""><br>
+                    <label>Deixe aqui seu feedback:</label><br>
+                    <textarea name="feedback" placeholder="Coloque seu feedback aqui" required></textarea>
+                </fieldset><p>
+
+                <input class="botao-form" type="submit" value="Cadastrar">
+                <input class="botao-form" type="reset" value="Limpar"><br>
+            </form>
+        </div>
+    </body>
 </html>

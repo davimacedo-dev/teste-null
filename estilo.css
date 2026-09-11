@@ -1,0 +1,31 @@
+
+header{
+    background-color: wheat;
+    color: black;
+    font-family: Arial;
+}
+body {
+    margin: 50;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+form fieldset input, textarea {
+    background-color: wheat;
+    color: black;
+    margin: 5px;
+    border: 0;
+}
+.img-logo {
+    width: 20%;
+    float: center;
+}
+.estilo-2 {
+    background-color: white;
+    color: black;
+}
+.botao-form{
+    margin: 10px;
+    font-size: large;
+}
+/* Comentário 1 - aqui é o CSS*/
